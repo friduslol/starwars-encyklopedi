@@ -10,7 +10,7 @@ const Navbar = () => {
             {data &&
                 Object.getOwnPropertyNames(data).map((name, i) => (
                     <NavLink to={name} key={i}>
-                        {name.toLocaleUpperCase()}
+                        {name.toLocaleUpperCase() }
                     </NavLink>
             ))}
         </div>
